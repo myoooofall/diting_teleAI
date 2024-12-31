@@ -1,0 +1,10 @@
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: /storage/A_Yolov5/Product/train919.txt  # 118287 images
+val: /storage/A_Yolov5/Product/val919.txt  # 5000 images
+test: /storage/A_Yolov5/Product/val919.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# number of classes
+nc: 12
+
+# class names
+names: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11']
